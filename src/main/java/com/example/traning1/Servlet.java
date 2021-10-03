@@ -26,4 +26,13 @@ public class Servlet extends HttpServlet {
     protected void doOptions(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.doOptions(req, resp);
     }
+
+    public Servlet() {
+        super();
+    }
+
+    @Override
+    protected void doTrace(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        super.doTrace(req, resp);
+    }
 }
