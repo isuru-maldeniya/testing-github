@@ -12,4 +12,8 @@ public class Tank {
         return "Thank";
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
