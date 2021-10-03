@@ -12,4 +12,10 @@ public class Tank {
         return "Thank";
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
+
+
