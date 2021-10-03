@@ -30,4 +30,9 @@ public class Servlet extends HttpServlet {
     public Servlet() {
         super();
     }
+
+    @Override
+    protected void doTrace(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        super.doTrace(req, resp);
+    }
 }
